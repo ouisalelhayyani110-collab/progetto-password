@@ -1,0 +1,67 @@
+
+
+#app {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 100px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+input {
+    width: 550px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-top: 20px;
+
+    order: 2;
+}
+/* effetto quando clicchi */
+input:focus {
+    border-color: #e67300;
+    box-shadow: 0 0 6px rgba(95, 55, 18, 0.5);
+    outline: none;
+}
+
+
+/* titolo più elegante */
+h1 {
+    letter-spacing: 50px;
+    order: 1;
+}
+
+
+/* centra tutto verticalmente */
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url('immagine1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 20px;
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: #834506;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+
+    order: 3; 
+}
+
